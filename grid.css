@@ -1,0 +1,19 @@
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(9,auto);
+  grid-template-rows: repeat(3,auto);
+  background: lightgrey;
+  grid-gap: 2px;
+  border: 2px lightgrey;
+  padding: 2px;
+  height: 100%;
+  text-align: center;
+  height: -webkit-fill-available;
+  background-image: url('./grid.jpg');
+}
+
+.item{
+  background: white;
+  opacity: 0.4;
+  font-weight: bold;
+}
